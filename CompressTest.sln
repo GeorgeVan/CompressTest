@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressTest.Plugins", "CompressTest.Plugins.csproj", "{70B775E9-B195-9EB9-4521-A7BF78E476A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressTest", "CompressTest.csproj", "{358074AA-49D0-8065-5140-6EEE6A051528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressTest.Editor", "CompressTest.Editor.csproj", "{73E97B60-57E2-B8BB-C992-80367A6475F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B775E9-B195-9EB9-4521-A7BF78E476A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B775E9-B195-9EB9-4521-A7BF78E476A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B775E9-B195-9EB9-4521-A7BF78E476A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B775E9-B195-9EB9-4521-A7BF78E476A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358074AA-49D0-8065-5140-6EEE6A051528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358074AA-49D0-8065-5140-6EEE6A051528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358074AA-49D0-8065-5140-6EEE6A051528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358074AA-49D0-8065-5140-6EEE6A051528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E97B60-57E2-B8BB-C992-80367A6475F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E97B60-57E2-B8BB-C992-80367A6475F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E97B60-57E2-B8BB-C992-80367A6475F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E97B60-57E2-B8BB-C992-80367A6475F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
