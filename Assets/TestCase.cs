@@ -24,7 +24,7 @@ public static class CompressTestCase
     }
 
 
-    [CUDLR.Command("zip", "lists all the game objects in the scene")]
+    [CUDLR.Command("zip", "测试ZIP：IonicZLib/IonicGZip/GZip")]
     public static void zip()
     {
         Tester.RunOne("IonicZLib", 5, Mini.IonicZLib, Mini.DeIonicZLib);
@@ -36,7 +36,7 @@ public static class CompressTestCase
         LogFileSize("GZip");
     }
 
-    [CUDLR.Command("bzip", "lists all the game objects in the scene")]
+    [CUDLR.Command("bzip", "测试BZip2/IonicBZip2")]
     public static void bzip()
     {
         Tester.RunOne("bzip", 9, Mini.BZip2, Mini.DeBZip2);
@@ -47,14 +47,14 @@ public static class CompressTestCase
     }
 
 
-    [CUDLR.Command("delzma", "lists all the game objects in the scene")]
+    [CUDLR.Command("delzma", "测试DeLZMA")]
     public static void delzma()
     {
         //手机上面lzma非常慢
         Tester.RunDeOne("lzma", Mini.DeLZMA);
     }
 
-    [CUDLR.Command("mszip", "lists all the game objects in the scene")]
+    [CUDLR.Command("mszip", "测试MSZip")]
     public static void mszip()
     {
         try

@@ -133,9 +133,6 @@
     <Reference Include="GlibWin">
       <HintPath>Assets/Editor/GlibWin.dll</HintPath>
     </Reference>
-    <Reference Include="ManagedXZ">
-      <HintPath>Assets/Editor/ManagedXZ.dll</HintPath>
-    </Reference>
     <Reference Include="Noemax.Compression.Trial">
       <HintPath>Assets/Editor/Noemax.Compression.Trial.dll</HintPath>
     </Reference>
